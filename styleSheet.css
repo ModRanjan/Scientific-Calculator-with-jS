@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(233, 118, 51, 0.651);
+  height: 100vh;
+}
+.titel {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+.flex {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 1px;
+}
+.main-container {
+  background-color: rgba(253, 253, 253, 0.521);
+  margin: auto;
+  border: 2px solid rgba(94, 68, 36, 0.800);
+  width: 365px;
+}
+.text-area {
+  text-align: right;
+  height: 40px;
+  width: 355px;
+  padding: 10px 7px 10px 3px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.842);
+  border-radius: 5px;
+}
+.btn {
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.581);
+  border: 0.5px solid rgba(0, 0, 0, 0.8);
+  padding: 4px 5px;
+  margin-right: 2px;
+  height: 30px;
+  outline: none;
+  width: 70px;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: rgba(0, 120, 212, 0.622);
+  color: rgba(0, 0, 0, 0.9);
+}
+.bold {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.842);
+}
+.special {
+  margin: auto;
+  text-align: center;
+  width: 360px;
+}
+.btn-sp {
+  font-size: 16px;
+}
+.sign {
+  padding: 0px 10px;
+}
+.fa {
+  margin: 8px;
+}
