@@ -21,7 +21,7 @@ body {
   height: 34px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 5px 1px;
 }
 .container {
@@ -43,7 +43,6 @@ form{
   color: rgba(0, 0, 0, 0.842);
   border-radius: 5px;
 }
-.btn-u,
 .flex .btn {
   font-size: medium;
   color: rgba(0, 0, 0, 0.581);
@@ -55,7 +54,13 @@ form{
   width: 5rem;
   border-radius: 5px;
 }
-.btn-u:hover,
+.btn-trogo,
+.btn-func{
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  outline: none;
+  width: 10rem;
+}
+
 .btn:hover {
   background-color: rgba(0, 120, 212, 0.622);
   color: rgba(0, 0, 0, 0.9);
@@ -63,16 +68,18 @@ form{
 .bold {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.842);
+  background-color: #fff;
 }
 .sign{
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 .fa {
   margin: 8px;
 }
 .dropdown-menu{
   height: 95px;
-  width: 276px;
+  width: 270px;
+  min-width: 18rem;
 }
 .dropdown-menu li{
   display: inline-block;
@@ -80,7 +87,11 @@ form{
   list-style: none;
   text-align: center;
 }
-.dropdown-menu li .btn-u{
+.dropdown-menu li .btn{
   margin: 0;
   /* padding: 5px 8px 5px 8px; */
+}
+.flex .disable{
+ /* background-color: rgba(88, 86, 86, 0.842); */
+ border: 2px solid rgba(190, 184, 184, 0.8);
 }
